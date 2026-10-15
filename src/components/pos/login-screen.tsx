@@ -51,14 +51,7 @@ export function LoginScreen() {
         </form>
         <div className="mt-5 rounded-xl bg-sand/60 p-3 text-sm">
           <p className="text-muted">บัญชีตัวอย่างบนเครื่องนี้</p>
-          <div className="mt-2 grid gap-2">
-            <Button variant="sand" className="w-full bg-card" onClick={() => submit("admin", "admin")}>
-              แอดมิน · admin / admin
-            </Button>
-            <Button variant="sand" className="w-full bg-card" onClick={() => submit("somchai", "1234")}>
-              ผู้ขาย · somchai / 1234
-            </Button>
-          </div>
+          
         </div>
       </div>
     </div>
